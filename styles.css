@@ -1,0 +1,127 @@
+/* 
+
+WHERE I LEARNT THIS FROM - WWW.CSSSCRIPT.COM
+
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  perspective: 2px;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  /*   font-family: 'Alegreya Sans', sans-serif; */
+  font-size: 72px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.team {
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+  opacity: 0.4;
+  height: 100vh;
+  line-height: 1000px;
+}
+
+.super {
+  text-align: left;
+  color: #ffffff;
+  padding-left: 5%;
+  text-shadow: 0 0 5px #000;
+  opacity: 0.7;
+  line-height: 800px;
+}
+
+.wonder {
+  text-align: left;
+  color: #fff;
+  padding-left: 5%;
+  text-shadow: 0 0 5px #000;
+  opacity: 0.7;
+  line-height: 100px;
+}
+
+.woman {
+  line-height: 40px;
+}
+
+.bat {
+  text-align: right;
+  color: #fff;
+  padding-right: 5%;
+  text-shadow: 0 0 5px #000;
+  opacity: 0.7;
+  line-height: 800px;
+}
+
+.flash {
+  text-align: right;
+  color: #fff;
+  padding-right: 5%;
+  text-shadow: 0 0 5px #000;
+  opacity: 0.7;
+  line-height: 800px;
+}
+
+.aqua {
+  text-align: left;
+  color: #fff;
+  padding-left: 5%;
+  text-shadow: 0 0 5px #000;
+  opacity: 0.7;
+  line-height: 740px;
+}
+
+.cyborg {
+  text-align: right;
+  color: #fff;
+  padding-right: 5%;
+  text-shadow: 0 0 5px #000;
+  opacity: 0.7;
+  line-height: 200px;
+}
+
+/* CREATE PARALLAX EFFECT */
+
+section.module.parallax {
+  height: 100vh;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section.module.parallax-1 {
+  background-image: url("https://wallpapersultra.net/wp-content/uploads/Future-of-DC-Justice-League-Wallpaper-2017-Movie.jpg");
+}
+
+section.module.parallax-2 {
+  background-image: url("https://1366x768wallpaper.com/no-watermarks/originals/2016/11/02/new-dawn-of-justice-batman-v-superman-movie-4k-wallpaper.jpg");
+}
+
+section.module.parallax-3 {
+  background-image: url("https://www.hdwallpapers.in/walls/ben_affleck_as_batman-HD.jpg");
+}
+
+section.module.parallax-4 {
+  background-image: url("https://wallpapersite.com/images/wallpapers/wonder-woman-1920x1080-4k-8k-7976.jpg");
+}
+
+section.module.parallax-5 {
+  background-image: url("http://freshwallpapers.net/download/6941/1920x1080/download/the-flash.jpg");
+}
+
+section.module.parallax-6 {
+  background-image: url("https://wallpapersite.com/images/wallpapers/aquaman-1920x1080-justice-league-hd-2017-6902.jpg");
+}
+
+section.module.parallax-7 {
+  background-image: url("https://www.hdwallpapers.in/walls/cyborg_in_justice_league-wide.jpg");
+}
